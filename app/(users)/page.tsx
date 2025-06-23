@@ -73,7 +73,7 @@ export default async function DemoPage() {
 
   return (
     <div className="container mx-auto py-10">
-      <h1 className="text-2xl font-bold mb-4">Utilizadores</h1>
+     
       <DataTable columns={columns} data={data} />
     </div>
   )
